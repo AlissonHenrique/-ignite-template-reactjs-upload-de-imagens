@@ -13,6 +13,7 @@ interface Card {
   description: string;
   url: string;
   ts: number;
+  id?: string;
 }
 
 interface CardProps {
